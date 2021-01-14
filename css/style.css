@@ -55,5 +55,25 @@ main {
   }
   
   .content:nth-child(even) {
-    text-align: end;
+    text-align: right;
+  }
+
+  @media (max-width: 1024px) {
+    .wrapper {
+      background-color: red;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .wrapper {
+        background-color: blue;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wrapper {
+        background-color: purple;
+    }
+  
+  
   }
